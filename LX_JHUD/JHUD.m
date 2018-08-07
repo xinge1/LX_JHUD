@@ -394,7 +394,7 @@
         
         [_customBtnArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             UIButton *btn = (UIButton *)obj;
-            btn.hidden = YES;
+            btn.hidden = NO;
         }];
         
     } else {
@@ -402,7 +402,7 @@
         
         [_customBtnArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             UIButton *btn = (UIButton *)obj;
-            btn.hidden = NO;
+            btn.hidden = YES;
         }];
     }
 }
