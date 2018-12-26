@@ -4,4 +4,4 @@
 在原版基础上增加按钮title数组，实现多按钮页面
 
 使用方法:
-pod 'LX_JHUD'
+'pod 'LX_JHUD''
